@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="BUTTONTEXT_EXTRACT" xml:space="preserve">
+    <value>抽出</value>
+  </data>
+  <data name="BUTTONTEXT_EXTRACTING" xml:space="preserve">
+    <value>抽出中</value>
+  </data>
+  <data name="BUTTONTEXT_WRITE" xml:space="preserve">
+    <value>書込</value>
+  </data>
+  <data name="BUTTONTEXT_WRITING" xml:space="preserve">
+    <value>書込中</value>
+  </data>
+  <data name="CAPTION_EXTRACTING_SUCCEEDED" xml:space="preserve">
+    <value>抽出完了</value>
+  </data>
+  <data name="CAPTION_FILE_ALREADY_OPENED" xml:space="preserve">
+    <value>ファイルが開かれています</value>
+  </data>
+  <data name="CAPTION_FILE_NOT_FOUND" xml:space="preserve">
+    <value>存在しないファイル</value>
+  </data>
+  <data name="CAPTION_INVALID_EXTENTION" xml:space="preserve">
+    <value>不正な拡張子</value>
+  </data>
+  <data name="CAPTION_INVALID_IMAGE_TYPE" xml:space="preserve">
+    <value>不正な画像ファイル</value>
+  </data>
+  <data name="CAPTION_TOO_LARGE_FILE" xml:space="preserve">
+    <value>記録容量不足</value>
+  </data>
+  <data name="CAPTION_UNKNOWN_ERROR" xml:space="preserve">
+    <value>原因不明のエラー</value>
+  </data>
+  <data name="CAPTION_WRITING_SUCCEEDED" xml:space="preserve">
+    <value>書込完了</value>
+  </data>
+  <data name="DEFAULT_FILE_NAME" xml:space="preserve">
+    <value>名無し</value>
+  </data>
+  <data name="FORMATED_MESSAGE_IS_NULL" xml:space="preserve">
+    <value>{0}がnullです。</value>
+  </data>
+  <data name="MESSAGE_DIRECTORY_SELECT_DIALOG" xml:space="preserve">
+    <value>ファイルの抽出先のフォルダを選択してください。</value>
+  </data>
+  <data name="MESSAGE_DRAG_FILES_HERE" xml:space="preserve">
+    <value>下の白い領域にファイル（複数可）をドラッグしてください。</value>
+  </data>
+  <data name="MESSAGE_EXTRACTING" xml:space="preserve">
+    <value>抽出中...</value>
+  </data>
+  <data name="MESSAGE_EXTRACTING_SUCCEEDED" xml:space="preserve">
+    <value>抽出が完了しました。</value>
+  </data>
+  <data name="MESSAGE_FILE_ALREADY_OPENED" xml:space="preserve">
+    <value>書込先のファイルが既に開かれており，書込を行えません。</value>
+  </data>
+  <data name="MESSAGE_FILE_SAVE_DIALOG" xml:space="preserve">
+    <value>ファイルの保存先のフォルダを選択してください。</value>
+  </data>
+  <data name="MESSAGE_IMAGE_INCLUDE_THESE_FILES" xml:space="preserve">
+    <value>この画像ファイルには以下のファイルが記録されています。</value>
+  </data>
+  <data name="MESSAGE_INVALID_EXTENTION" xml:space="preserve">
+    <value>ファイルの拡張子が不正です。ドロップできるファイルの拡張子は .bmp .jpg .png .tiff のいずれかです。</value>
+  </data>
+  <data name="MESSAGE_INVALID_IMAGE_TYPE" xml:space="preserve">
+    <value>BMPファイル，PNGファイル，TIFFファイル，JPGファイルのいずれかをドロップできます。</value>
+  </data>
+  <data name="MESSAGE_READY_TO_WRITE_DATA" xml:space="preserve">
+    <value>「書込」ボタンを押すとファイルの書込を開始します。</value>
+  </data>
+  <data name="MESSAGE_TOO_LARGE_FILE" xml:space="preserve">
+    <value>ファイルサイズが大きすぎます。記録容量が足りません。</value>
+  </data>
+  <data name="MESSAGE_TOO_LARGE_FILE_WITH_ADVICE" xml:space="preserve">
+    <value>記録容量が足りません。（データ秘匿レベルを高くするほど記録容量が減ります。）</value>
+  </data>
+  <data name="MESSAGE_UNKNOWN_ERROR" xml:space="preserve">
+    <value>原因不明のエラーが発生しました。</value>
+  </data>
+  <data name="MESSAGE_WRITING" xml:space="preserve">
+    <value>書き込み中...</value>
+  </data>
+  <data name="MESSAGE_WRITING_SUCCEEDED" xml:space="preserve">
+    <value>書込が完了しました。</value>
+  </data>
+</root>
